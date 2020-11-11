@@ -75,6 +75,11 @@ class Customer {
       );
     }
   }
+
+  fullName() {
+    // console.log(this.firstName)
+    return this.firstName + " " + this.lastName
+  }
 }
 
 
